@@ -9,7 +9,7 @@ server.use(restify.queryParser());
 server.use(restify.bodyParser());
 
 server.get('/', function(req, res, next) {
-	res.send('Please visit /refresh');
+	res.send('hello');
 	return next();
 });
 

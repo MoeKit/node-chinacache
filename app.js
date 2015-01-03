@@ -44,6 +44,6 @@ server.post('/api/v1/_callback', function(req, res, next) {
 	return next();
 });
 
-server.listen(8080, function() {
+server.listen(config.port, function() {
 	console.log('%s listening at %s', server.name, server.url);
 });
